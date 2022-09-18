@@ -1,7 +1,7 @@
 import ButtonNav from './ButtonNav'
-import MyLearning from '../routers/Mylearning'
-import About from '../routers/About'
-import Proyects from '../routers/Proyects'
+import MyLearning from '/routers/MyLearning'
+import About from '/routers/About'
+import Proyects from '/routers/Proyects'
 
 export default function Nav() {
   return (

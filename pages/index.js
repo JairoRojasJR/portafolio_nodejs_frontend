@@ -1,5 +1,5 @@
-import Background from './components/Background'
-import Nav from './components/Nav'
+import Background from '/components/Background'
+import Nav from '/components/Nav'
 import Head from 'next/head'
 
 export default function Home() {
