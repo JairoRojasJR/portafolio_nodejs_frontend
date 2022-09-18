@@ -6,9 +6,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Libre Baskerville', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--primary-color);
+  color: #fff;
 }
 
 a {
@@ -20,45 +21,58 @@ a {
   box-sizing: border-box;
 }
 
-.home {
-  width: 100%;
-  height: 100%;
+.df {
   display: flex;
+}
+
+.aifs {
+  align-items: flex-start;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.fdc {
   flex-direction: column;
 }
 
-.background-container {
-  position: fixed;
+.w100p {
   width: 100%;
+}
+
+.h100p {
   height: 100%;
 }
 
-.background {
-  position: fixed;
-  width: 100%;
-  overflow: hidden;
-  top: 0;
-}
-
-.background_noblur {
-  height: 50%;
-  z-index: 100;
-}
-
-.background_blur {
-  height: 100%;
-}
-
-.noblur-container {
-  position: relative;
+.h100vh {
   height: 100vh;
 }
 
-.background_image {
-  object-fit: cover;
-  object-position: top;
+.pf {
+  position: fixed;
 }
 
-.background_blur .background_image {
-  filter: blur(10px);
+.pr {
+  position: relative;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.ofcr {
+  object-fit: cover;
+}
+
+.fb1r {
+  filter: blur(1rem);
+}
+
+.cp {
+  cursor: pointer;
 }
