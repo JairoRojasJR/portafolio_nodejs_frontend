@@ -3,6 +3,8 @@ import Nav from '/components/Nav'
 import Head from 'next/head'
 
 export default function Home() {
+  console.log('Hola mundo');
+  console.log('Aguacate');
   return (
     <div className='home df dfc h100p'>
       <Head>
