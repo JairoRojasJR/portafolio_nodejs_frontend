@@ -1,9 +1,13 @@
 import Background from './components/Background'
 import Nav from './components/Nav'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className='home df dfc h100p'>
+      <Head>
+        <title>Jayo Web</title>
+      </Head>
       <Background />
       <div className='main pr h100vh w100p'>
         <nav className='nav df aifs jcc'>

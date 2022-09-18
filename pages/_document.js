@@ -5,7 +5,6 @@ export default function Document() {
     <Html>
       <Head>
       <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" />
-      <title>Jayo Web</title>
       </Head>
       <body>
         <Main />
