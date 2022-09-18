@@ -5,6 +5,7 @@ import Head from 'next/head'
 export default function Home() {
   console.log('Hola mundo');
   console.log('Aguacate');
+  console.log('Tercer mensaje')
   return (
     <div className='home df dfc h100p'>
       <Head>
