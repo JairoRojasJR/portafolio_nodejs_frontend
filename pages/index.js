@@ -1,11 +1,9 @@
 import Background from '/components/Background'
 import Nav from '/components/Nav'
 import Head from 'next/head'
+import Presentation from '/components/Presentation'
 
 export default function Home() {
-  console.log('Hola mundo');
-  console.log('Aguacate');
-  console.log('Tercer mensaje')
   return (
     <div className='home df dfc h100p'>
       <Head>
@@ -16,8 +14,8 @@ export default function Home() {
         <nav className='nav df aifs jcc'>
           <Nav />
         </nav>
-        <div className='presentation'>
-          Bienvenido a mi portafolio Web
+        <div className='presentation df aic jcc'>
+          <Presentation />
         </div>
       </div>
       <style jsx>{`

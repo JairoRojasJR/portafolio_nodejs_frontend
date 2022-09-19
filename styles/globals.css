@@ -37,6 +37,10 @@ a {
   justify-content: center;
 }
 
+.jcsp {
+  justify-content: space-between;
+}
+
 .fdc {
   flex-direction: column;
 }
