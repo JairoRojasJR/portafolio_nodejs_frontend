@@ -37,6 +37,7 @@ export default function Home() {
           .nav {
             flex-direction: column;
             gap: 3rem;
+            padding: .5rem;
           }
         }
       `}</style>
