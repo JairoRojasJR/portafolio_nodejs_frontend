@@ -40,17 +40,18 @@ export default function Presentation() {
         }
 
         .presentation__text-container {
-          padding: .5rem;
+          padding: 1rem;
           background-color: #fff;
           border-radius: 1rem;
           color: #000;
-          font-size: 0.8rem;
           max-height: 100%;
           overflow: hidden;
         }
 
         .presentation__text-container p {
-          line-height: 1.1rem;
+          line-height: 1.5rem;
+          margin: 0;
+          text-align: center;
         }
 
         @keyframes deploidPresCard {

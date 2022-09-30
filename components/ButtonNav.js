@@ -34,8 +34,8 @@ export default function ButtonNav(props) {
 				</div>
 			</button>
 			<div
-				className='link__content'>
-				<Content></Content>
+				className='link__content fdc aic'>
+				<Content />
 			</div>
 			<style jsx>{`
 				.link__nav {
@@ -75,7 +75,7 @@ export default function ButtonNav(props) {
 					top: 11%;
 					left: 5%;
 					color: #000;
-					padding: 2.5rem;
+					padding: 1.5rem;
 					border-radius: 1.3rem;
 					border: .3rem solid #000;
 					z-index: 300;
@@ -83,7 +83,7 @@ export default function ButtonNav(props) {
 				}
 
 				.link-opened .link__content {
-					display: block;
+					display: flex;
 					animation: deploidContent .6s forwards;
 				}
 
@@ -142,7 +142,8 @@ export default function ButtonNav(props) {
 
 					.link-opened .link__nav-text {
 						transition: transform .5s;
-						transform: rotate(-90deg) translateY(-200%) scale(.8);
+						transform: rotate(-90deg) translateY(-300%) scale(.8);
+						z-index: 300;
 					}
 				}
 			`}</style>

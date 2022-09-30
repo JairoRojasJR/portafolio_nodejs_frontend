@@ -1,7 +1,7 @@
 import ButtonNav from './ButtonNav'
-import MyLearning from '/routers/MyLearning'
-import About from '/routers/About'
-import Proyects from '/routers/Proyects'
+import MyLearning from './nav/MyLearning'
+import About from './nav/About'
+import Proyects from './nav/Proyects'
 import { useState } from "react";
 
 export default function Nav() {

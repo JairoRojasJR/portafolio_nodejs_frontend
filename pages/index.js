@@ -1,11 +1,17 @@
 import Background from '/components/Background'
 import Nav from '/components/Nav'
 import Head from 'next/head'
+import Script from 'next/script'
 import Presentation from '/components/Presentation'
 
 export default function Home() {
   return (
     <div className='home df dfc h100p'>
+      <Script
+        id='font-aweson-script'
+        src='https://kit.fontawesome.com/9f3be5f028.js'
+        crossorigin='anonymous'
+      />
       <Head>
         <title>Jayo Web</title>
       </Head>
@@ -21,6 +27,8 @@ export default function Home() {
       <style jsx>{`
         .main {
           z-index: 200;
+          max-width: 1200px;
+          margin: 0 auto;
         }
 
         .nav {
