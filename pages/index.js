@@ -1,52 +1,26 @@
 import Background from '/components/Background'
 import Nav from '/components/Nav'
+import Presentation from '/components/Presentation'
 import Head from 'next/head'
 import Script from 'next/script'
-import Presentation from '/components/Presentation'
 
 export default function Home() {
   return (
     <div className='home df dfc h100p'>
-      <Script
-        id='font-aweson-script'
-        src='https://kit.fontawesome.com/9f3be5f028.js'
-        crossorigin='anonymous'
-      />
+      <Script src="https://kit.fontawesome.com/9f3be5f028.js" crossOrigin="anonymous"></Script>
       <Head>
         <title>Jayo Web</title>
       </Head>
       <Background />
-      <div className='main pr h100vh w100p'>
-        <nav className='nav df aifs jcc'>
-          <Nav />
-        </nav>
-        <div className='presentation df aic jcc'>
-          <Presentation />
-        </div>
-      </div>
+      <main className='main pr h100vh w100p'>
+        <Nav />
+        <Presentation />
+      </main>
       <style jsx>{`
-        .main {
+          main {
           z-index: 200;
           max-width: 1200px;
           margin: 0 auto;
-        }
-
-        .nav {
-          padding: 1.5rem;
-          padding-top: 2rem;
-          gap: 1.5rem;
-        }
-
-        .nav, .presentation  {
-          height: 50%;
-        }
-
-        @media screen and (max-width: 725px) {
-          .nav {
-            flex-direction: column;
-            gap: 3rem;
-            padding: .5rem;
-          }
         }
       `}</style>
     </div>
