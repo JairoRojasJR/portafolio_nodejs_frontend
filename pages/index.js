@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
       <Background />
       <main className='main pr h100vh w100p'>
+        <h1>Jayo Web - Developer web</h1>
         <Nav />
         <Presentation />
       </main>
@@ -21,6 +22,10 @@ export default function Home() {
           z-index: 200;
           max-width: 1200px;
           margin: 0 auto;
+        }
+
+        h1 {
+          position: absolute;
         }
       `}</style>
     </div>
