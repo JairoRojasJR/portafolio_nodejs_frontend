@@ -1,14 +1,10 @@
 import Image from "next/image"
-import { useEffect, useRef, useState } from "react"
 import React from "react";
 import styles2 from "./styles/Presentation";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Presentation() {
-  const divPresentation = useRef(null);
-  useEffect(() => {
-    divPresentation.current.style.animation = 'deploidPresCard 3s forwards';
-  })
-  return(
+  return (
     <div className='presentation df aic jcc'>
       <div className='presentation__card df aic jcc'>
         <div className='presentation__image-container pr'>
@@ -17,13 +13,14 @@ export default function Presentation() {
             src={'/images/myselft.jpg'}
             layout='fill' />
         </div>
-        <div
-          ref={divPresentation}
-          className={`presentation__text-container`}
-          >
-          <p>
-            Hola, yo soy Jairo Rojas y soy desarrollador Web. Bienvenido a mi portafolio ;)
-          </p>
+        <div className={`presentation__text-container`}>
+          <Typewriter
+            words={["Hola yo soy Jairo Rojas y soy desarrollador web, bienvenido a mi portafolio."]}
+            loop={1}
+            cursor
+            cursorStyle='|'
+            typeSpeed={30}
+          />
         </div>
       </div>
       <style jsx>{styles2}</style>

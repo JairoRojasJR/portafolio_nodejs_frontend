@@ -5,6 +5,7 @@ export default css`
     padding: 1.5rem;
     padding-top: 2rem;
     gap: 1.5rem;
+    width: 100%;
     height: 50%;
   }
 
