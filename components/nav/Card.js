@@ -12,6 +12,7 @@ export default function Learned(props) {
 						className='learned__img ofcn'
 						src={props.src}
 						layout='fill'
+						alt={props.alt}
 						onClick={() => redirect()}
 					/>
 				</div>

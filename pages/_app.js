@@ -4,24 +4,35 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return <>
     <NextSeo
-      title="Jayo Web"
-      titleTemplate="Jayo Web"
-      defaultTitle="Jayo Web"
-      description="Soy Jairo Rojas y soy desarrollador web"
+      title="Desarrollador web Machala Jayo Web"
+      titleTemplate="Desarrollador web Machala Jayo Web"
+      defaultTitle="Desarrollador web Machala Jayo Web"
+      description="Jairo Rojas desarrollador web Machala. Creación de sitios web para empresas, negocios, sitios personales"
       canonical="https://www.jayoweb.com/"
       openGraph={{
         url: "https://www.jayoweb.com/",
-        title: "Jayo Web",
-        description: "Soy Jairo Rojas y soy desarrollador web",
+        title: "Desarrollador web Machala Jayo Web",
+        description: "Jairo Rojas desarrollador web Machala. Creación de sitios web para empresas, negocios, sitios personales",
         images: [
           {
             url: "/favicon.ico",
             width: 800,
             height: 420,
             alt: "Jayo Web",
-          },
+          }
         ],
+        book: {
+          authors: "Jairo Rojas",
+          tags: "desarrollador, web, Machala, programador, websites"
+        }
       }}
+      additionalMetaTags={[{
+        property: "keywords",
+        content: "desarrollador, web, Machala, programador, websites"
+      },{
+        property: "author",
+        content: "Jairo Rojas"
+      }]}
     />
     <Component {...pageProps} />
   </>

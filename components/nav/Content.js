@@ -9,7 +9,7 @@ export default function Content(props) {
 						className='img-container pr'
 						style={{ margin: 0, maxWidth: 700 }}>
 						<Image
-							className=''
+							alt={props.alt}
 							src={props.src}
 							layout='fill'
 							objectFit='cover' />

@@ -6,6 +6,7 @@ export default function Background() {
 			<div className='background background_noblur pf w100p oh'>
 				<div className='noblur-container h100vh pr'>
 					<Image
+						alt='codigo'
 						src='/images/codigo_image.png'
 						className='background_image ofcr'
 						layout='fill' />
@@ -13,6 +14,7 @@ export default function Background() {
 			</div>
 			<div className='background background_blur pf w100p oh h100vh'>
 				<Image
+					alt='codigo'
 					src='/images/codigo_image.png'
 					className='background_image ofcr fb1r'
 					layout='fill' />

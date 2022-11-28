@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="es">
       <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"

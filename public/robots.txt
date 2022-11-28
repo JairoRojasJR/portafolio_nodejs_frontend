@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://jayoweb.com/api/sitemap
+Sitemap: http://www.jayoweb.com/api/sitemap

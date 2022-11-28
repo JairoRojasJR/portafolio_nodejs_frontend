@@ -9,6 +9,7 @@ export default function Presentation() {
       <div className='presentation__card df aic jcc'>
         <div className='presentation__image-container pr'>
           <Image
+            alt="Jairo Rojas desarrollador web"
             className='ofcr'
             src={'/images/myselft.jpg'}
             layout='fill' />

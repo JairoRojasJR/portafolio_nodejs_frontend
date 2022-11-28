@@ -22,6 +22,7 @@ export default function Button(props) {
 				>
 					<Image
 						src={props.icon}
+						alt={props.alt}
 						layout='fill' />
 				</i>
 				<div
