@@ -20,7 +20,7 @@ export default function Home() {
         }
       </Script>
       <Head>
-        <title>Jayo Web</title>
+        <title>Desarrollador web Machala Jairo Rojas</title>
       </Head>
       <Background />
       <main className='main pr h100vh w100p'>
